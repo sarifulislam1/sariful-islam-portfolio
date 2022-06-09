@@ -1,0 +1,30 @@
+.nav-section {
+    height: 100%;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+}
+
+
+.nav-a {
+    background-color: transparent;
+    width: max-content;
+    display: inline-block;
+    color: #4db5ff;
+    cursor: pointer;
+    margin: 5px;
+}

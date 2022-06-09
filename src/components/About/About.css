@@ -1,0 +1,38 @@
+.about-section {
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.about-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-main-div img {
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+}
+
+.about-main-div p {
+    height: 50%;
+    text-align: start;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-main-div {
+        display: block;
+
+    }
+
+    .about-main-div img {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+}
