@@ -1,15 +1,12 @@
 /* .name {
     color: rgba(77, 181, 255, 0.4);
 } */
-.header {
+header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
-.h-text {
-    margin-top: 60px;
-}
 
 .h-ancore {
     width: max-content;
