@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import ProjectPhTools from './components/Projects/ProjectPhTools';
 import Grocery from './components/Projects/GroceryWerehouse/Grocery';
+import Independent from './components/Projects/Independent/Independent';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/project' element={<Project></Project>}></Route>
         <Route path='/PH-Tools' element={<ProjectPhTools></ProjectPhTools>}></Route>
         <Route path='/grocery' element={<Grocery></Grocery>}></Route>
+        <Route path='/independent' element={<Independent></Independent>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
       </Routes>
       {/* <Contact></Contact> */}

@@ -10,6 +10,9 @@ const Project = () => {
     const grocery = () => {
         navigate('/grocery')
     }
+    const independent = () => {
+        navigate('/independent')
+    }
     return (
         <section id='project' className='section-p'>
             <h2>Projects</h2>
@@ -33,7 +36,7 @@ const Project = () => {
                     <h3>Independent Service Provider</h3>
                     <p>● This website is for an independent photographer.</p>
                     <a className='link-btn' href="https://independent-photographer.web.app/" target='_blank' >Live Site</a>
-                    <button className='btn' >More Details</button>
+                    <button className='btn' onClick={independent}>More Details</button>
                 </div>
             </div>
 

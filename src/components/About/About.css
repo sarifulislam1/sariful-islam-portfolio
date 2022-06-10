@@ -3,6 +3,10 @@ section {
     /* margin-top: 70px; */
 }
 
+.about-section {
+    margin-bottom: 50px;
+}
+
 .about-main-div {
     display: flex;
     align-items: center;
