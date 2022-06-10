@@ -1,6 +1,7 @@
-/* section {
+section {
     height: 100vh;
-} */
+    /* margin-bottom: 18%; */
+}
 
 
 .project-div {
@@ -38,8 +39,23 @@
     background-color: #296794;
 }
 
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: #4db5ff;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #4db5ff;
+    margin: 5px;
+}
 
-@media screen and (max-width: 576px) {
+.btn:hover {
+    background-color: #296794;
+}
+
+
+@media screen and (max-width: 676px) {
     .projects {
         display: inline-block;
         /* margin-left: 50%; */
@@ -48,6 +64,12 @@
     .project-div {
         width: 100%;
         height: 100%;
+    }
+
+    .section-p {
+        height: 150vh;
+        /* margin-bottom: 10%; */
+
     }
 
 

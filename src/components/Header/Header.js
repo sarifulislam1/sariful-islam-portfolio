@@ -3,6 +3,7 @@ import './Header.css'
 import cv from '../../images/Sariful_Islam_Resume (2).pdf'
 import me from '../../images/PORTFOLIO-removebg-preview.png'
 import HeaderSocial from './HeaderSocial';
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <header>
@@ -14,7 +15,8 @@ const Header = () => {
                 </div>
                 <div>
                     <a className='h-ancore' href={cv} download>Download CV</a>
-                    <a className='h-ancore' href="#contact">Let's Talk</a>
+                    {/* <Link></Link> */}
+                    <Link className='h-ancore' to="/contact">Let's Talk</Link>
                 </div>
                 <HeaderSocial ></HeaderSocial>
                 <div >

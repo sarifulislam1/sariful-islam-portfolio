@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26cd0aec.css",
+    "main.js": "/static/js/main.33e2b6e8.js",
+    "static/js/787.2d9d8da6.chunk.js": "/static/js/787.2d9d8da6.chunk.js",
+    "static/media/photo for linkedIn.png": "/static/media/photo for linkedIn.f74c4869104a6b034248.png",
+    "static/media/PORTFOLIO-removebg-preview.png": "/static/media/PORTFOLIO-removebg-preview.6e10c18ed367e35ac954.png",
+    "static/media/Sariful_Islam_Resume (2).pdf": "/static/media/Sariful_Islam_Resume (2).2dd5ab06bb14ca909e66.pdf",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.26cd0aec.css.map": "/static/css/main.26cd0aec.css.map",
+    "main.33e2b6e8.js.map": "/static/js/main.33e2b6e8.js.map",
+    "787.2d9d8da6.chunk.js.map": "/static/js/787.2d9d8da6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26cd0aec.css",
+    "static/js/main.33e2b6e8.js"
+  ]
+}
