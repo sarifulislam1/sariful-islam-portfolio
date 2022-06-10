@@ -24,11 +24,11 @@ const Contact = () => {
         e.target.reset()
     };
     return (
-        <section id='contact' className='sec-section'>
+        <section id='contact' className='sec-section container'>
             <h5>Get In Touch</h5>
             <h1>Contact</h1>
-            <div className='contact-div'>
-                <div>
+            <div className='contact-div row'>
+                <div className=' col-lg-6 col-sm-12'>
                     <article className='article-css'>
                         <MdEmail />
                         <h4>Email</h4>
@@ -48,7 +48,7 @@ const Contact = () => {
                         <a href="https://m.me/100008036208579" target='_blank'>Send A Message</a>
                     </article>
                 </div>
-                <form ref={form} onSubmit={sendEmail}>
+                <form className='col-lg-6 col-sm-12' ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Full Name' required />
                     <input type="email" name="email" placeholder='Your Email' required />
                     <textarea name="message" rows="7" placeholder='Your Message'></textarea>

@@ -64,6 +64,10 @@ textarea {
     }
 
 
+    .sec-section {
+        margin-bottom: 80%;
+    }
+
     input,
     textarea {
         width: 100%;
@@ -84,6 +88,7 @@ textarea {
         display: block;
         justify-content: center;
     }
+
 
     input,
     textarea {
